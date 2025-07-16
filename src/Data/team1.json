@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/assets/images/team/team01.jpg",  
+    "title": "Dr. Tewdros Getachew Kebede",
+    "desc": "Co-Founder",
+    "linkedin": "#",
+    "twitter": "#",
+    "facebook": "#"
+  },
+  {
+    "img": "/assets/images/team/team02.jpg",  
+    "title": "Dr. Simon Merid Kebede",
+    "desc": "Co-Founder",
+    "linkedin": "#",
+    "twitter": "#",
+    "facebook": "#"
+  },
+  {
+    "img": "/assets/images/team/team03.jpg",  
+    "title": "Mr. Yohannes Getahun Tebeje",
+    "desc": "Co-Founder",
+    "linkedin": "#",
+    "twitter": "#",
+    "facebook": "#"
+  }
+]

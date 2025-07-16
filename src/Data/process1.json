@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "icon-comercial",  
+    "title": "Health  <span class='fw-normal'>& Epidemiology</span>",
+    "desc": "Clinical trials, outbreak analysis, public health research",
+    "addclass": "process-single-box br-10",
+    "number": "01"
+  },
+  {
+    "icon": "icon-infomsg",  
+    "title": "Agriculture <span class='fw-normal'>& Food Security</span>",
+    "desc": "Yield forecasting, food program M&E",
+    "addclass": "process-single-box br-10",  
+    "number": "02"
+  },
+  {
+    "icon": "icon-finished",  
+    "title": "Education <span class='fw-normal'>& Social Policy </span>",
+    "desc": "Program evaluations, impact research",
+    "addclass": "process-single-box br-10", 
+    "number": "03"
+  },
+    {
+    "icon": "icon-finished",  
+    "title": "Finance <span class='fw-normal'> & Economics </span>",
+    "desc": "Economic modeling, risk analysiss",
+    "addclass": "process-single-box br-10", 
+    "number": "04"
+  },
+    {
+    "icon": "icon-finished",  
+    "title": "NGOs<span class='fw-normal'> & Development  </span>",
+    "desc": "Baseline studies, donor reporting",
+    "addclass": "process-single-box br-10", 
+    "number": "05"
+  },
+    {
+    "icon": "icon-finished",  
+    "title": "Government <span class='fw-normal'>& Policy </span>",
+    "desc": "Data for planning, policy simulations",
+    "addclass": "process-single-box br-10", 
+    "number": "06"
+  }
+]

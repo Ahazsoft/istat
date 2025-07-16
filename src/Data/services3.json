@@ -1,0 +1,50 @@
+[
+  {
+    "icon": "icon-switch",
+    "title": "Statistical Consulting",
+    "desc": "We provide expert support across all stages of research,from designing robust studies and calculating appropriate sample sizes to applying advanced statistical modeling and assisting with publication-ready results.",   
+    "number": "01.",
+    "btnText": "View Details",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "icon-risk",
+    "title": "Data Analysis & Visualization",
+    "desc": "We turn data into insights through descriptive and inferential analytics, predictive modeling,and interactive visualizations—including geospatial analysis and dynamic dashboards.",   
+    "number": "02.",
+    "btnText": "View Details",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "icon-checked-box",
+    "title": "Research Support & M&E",
+    "desc": "We support research and program evaluation through impact studies, survey design, and trial implementation—along with comprehensive baseline to endline analysis and tailored Monitoring & Evaluation (M&E) frameworks.",   
+    "number": "03.",
+    "btnText": "View Details",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "icon-inverted-triangle",
+    "title": "Training & Capacity Building",
+    "desc": "We offer tailored short courses and hands-on software training in R, Python, SPSS, and Stata, along with support for strengthening institutional capacity in data and research skills.",   
+    "number": "04.",
+    "btnText": "View Details",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "icon-refresh-arrow",
+    "title": "Survey Design & Data Collection",
+    "desc": "We support end-to-end data collection through tool development and piloting,enumerator training, and rigorous quality assurance and supervision in the field.",   
+    "number": "05.",
+    "btnText": "View Details",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "icon-e",
+    "title": "Data Management Systems",
+    "desc": "We design efficient data workflows and build integrated systems—including digital dashboards, real-time monitoring tools, and custom databases—to streamline data management and decision-making.",   
+    "number": "06.",
+    "btnText": "View Details",
+    "btnLink": "/service/service-details"
+  }  
+]
