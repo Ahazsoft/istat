@@ -1,4 +1,22 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+﻿
+/* Load local Inter font */
+@font-face {
+    font-family: "MozilaText";
+    src: url("./fonts/Mozilla_Text/MozillaText-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root {
     /* 1. #1fdafe,  #3efbbc , #800020 */
     /* 2. #3efbbc , #800020 , #1fdafe */
@@ -60,9 +78,13 @@
     --bs-border-color9: rgba(255, 255, 255, 0.30);
     --bs-border-color10: rgba(6, 50, 50, 0.10);
     --bs-border-color11: rgba(255, 255, 255, 0.2);
-    --title-font: "Inter", sans-serif;
-    --body-font: "Inter", sans-serif;
+    /* --title-font: "Inter", sans-serif;
+    --body-font: "Inter", sans-serif; */
     --icon-font: "Font Awesome 6 Pro";
+
+    --title-font: "MozilaText", sans-serif;
+    --body-font: "Poppins", sans-serif;
+
     --main-container: 1320px;
     --container-gutters: 24px;
     --section-space: 120px;
