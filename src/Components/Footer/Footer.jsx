@@ -9,15 +9,19 @@ const Footer = () => {
                     <div className="col-lg-4 col-md-4 col-sm-6 footer-brand">
                         <div className="brand-header">
                             {/* <a href="/" className="footer-logo d-block mb-20"><img src="/assets/images/logo/logostat.png" alt="" /></a> */}
-                            <a href="/" className="footer-logo-modified d-block mb-20"><img src="/assets/images/logo/logostat3.png" alt="" /></a>
+                            <a href="/" className="footer-logo-modified d-block mb-20"><img src="/assets/images/logo/Logo1.png" alt="" /></a>
 
                             <p className="text">Empowering Smarter Decisions  <br/> with Data-Driven Business </p>
                         </div>
                         <div className="footer-social">
-                            <a href="https://www.facebook.com/" className="social-link">FB.</a>
+                            {/* <a href="https://www.facebook.com/" className="social-link">FB.</a>
                             <a href="https://x.com/" className="social-link">TW.</a>
                             <a href="https://www.linkedin.com/" className="social-link">LN.</a>
-                            <a href="https://www.instagram.com/" className="social-link">IG</a>
+                            <a href="https://www.instagram.com/" className="social-link">IG</a> */}
+                            <a href="https://www.facebook.com/" className="social-link"><img src="/assets/images/social/FB.svg" alt="" /></a>
+                            <a href="https://x.com/" className="social-link"><img src="/assets/images/social/X.svg" alt="" /></a>
+                            <a href="https://www.linkedin.com/" className="social-link"><img src="/assets/images/social/IG.svg" alt="" /></a>
+                            <a href="https://www.instagram.com/" className="social-link"><img src="/assets/images/social/TikTok.svg" alt="" /></a>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4">
@@ -28,8 +32,8 @@ const Footer = () => {
                                     <ul className="list-unstyled">
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/service">Our Services</Link></li>
-                                        <li><Link to="#">Clinical Research & Support</Link></li>
-                                        <li><Link to="#">Resources & Insights</Link></li>
+                                        {/* <li><Link to="#">Clinical Research & Support</Link></li> */}
+                                        {/* <li><Link to="#">Resources & Insights</Link></li> */}
                                         <li><Link to="/contact">Contact Us</Link></li>
                                     </ul>
                                 </div>

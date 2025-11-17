@@ -6,7 +6,7 @@ const History1 = () => {
             <div className="container">
                 <div className="title-area three text-center">
                     <div className="sub-title"><span><i className="asterisk"></i></span>OUR HISTORY</div>
-                    <h2 className="sec-title">Company mission and <span className="bold">vision</span></h2>
+                    <h2 className="sec-title">Our History </h2>
                 </div>
                 <div className="row gy-30">
                     <div className="col-lg-6 col-md-6 wow fadeInLeft">
@@ -14,9 +14,24 @@ const History1 = () => {
                             <div className="p-top-right wow slideInRight"><img src="/assets/images/mission/shape01.png" alt="Mission shape" /></div>
                             <div className="mission-content">
                                 <h3 className="title">Our Vision <br/></h3>
-                                <p className="text">To become Africa’s leading center of excellence 
-                                    in statistics and data science consultancy—
-                                    driving innovation and smarter policy through data.</p>
+                                <p className="text">To be Africa’s premier centre of excellence in
+                                statistical/machine learning and data
+                                science consultancy as well as BPO/ KPO
+                                services—empowering local, continental
+                                and international organizations, government
+                                entities and higher institutions to make
+                                faster and smarter, evidence-based
+                                decisions.
+                                </p>
+                                <br/>
+                                <p className="text">
+                                    We envision to deliver as service where
+                                    innovation, sustainable development, and
+                                    policy effectiveness are driven and
+                                    supported by high-quality big data, rigorous
+                                    analytics, and a deep commitment to posi
+                                    tive impact to societies
+                                </p>
                                 {/* <Link to="/about" className="theme-btn bg-transparent">
                                     <span className="link-effect">
                                         <span className="effect-1">Our History</span>
@@ -33,10 +48,12 @@ const History1 = () => {
                         <div className="mission-single-box bg-light2">
                             <div className="p-top-right wow slideInRight"><img src="/assets/images/mission/shape02.png" alt="Mission shape" /></div>
                             <div className="mission-content">
-                                <h3 className="title">Our Vision<br/></h3>
-                                <p className="text">To deliver reliable, insightful, and ethical 
-                                    data solutions that support research, development, and
-                                    measurable outcomes.</p>
+                                <h3 className="title">Our Mission<br/></h3>
+                                <p className="text">
+                                    To deliver reliable, insightful, and ethical
+                                    data solutions that support research,
+                                    development, and measurable outcomes.
+                                </p>
                                 {/* <Link to="/about" className="theme-btn bg-transparent">
                                     <span className="link-effect">
                                         <span className="effect-1">Our History</span>

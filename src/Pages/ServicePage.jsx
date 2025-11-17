@@ -12,11 +12,11 @@ const ServicePage = () => {
     return (
         <div>
              <BreadCumb
-                bg="/assets/images/bg-img/breadcrumb.jpg"
+                bg="/assets/images/bg-img/breadcrumb2.png"
                 Title="Services"
                 Content="">
             </BreadCumb>   
-            <Choose1></Choose1> 
+            <Choose4></Choose4> 
             <Marquee></Marquee>   
             <Services4></Services4>     
             {/* <Process4></Process4>   */}

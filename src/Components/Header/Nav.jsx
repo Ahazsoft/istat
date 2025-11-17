@@ -100,10 +100,10 @@ export default function Nav({ setMobileToggle }) {
 
       </li>        
 
-      <li className="menu-item">
+      {/* <li className="menu-item">
         <Link to="#" onClick={() => setMobileToggle(false)}>
         Clinical Research Support
-        </Link>
+        </Link> */}
         {/* <DropDown>
           <ul>
             <li>
@@ -119,11 +119,11 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown> */}
 
-      </li>      
-      <li className="menu-item">
+      {/* </li>       */}
+      {/* <li className="menu-item">
         <Link to="#" onClick={() => setMobileToggle(false)}>
           Resources & Insights
-        </Link>
+        </Link> */}
         {/* <DropDown>
           <ul>
             <li>
@@ -146,7 +146,7 @@ export default function Nav({ setMobileToggle }) {
             </li>
           </ul>
         </DropDown> */}
-      </li>
+      {/* </li> */}
       <li className="menu-item">
         <Link to="/contact">Contact Us</Link>
       </li>      

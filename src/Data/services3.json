@@ -1,48 +1,49 @@
 [
   {
-    "icon": "icon-switch",
+    "icon": "/assets/images/service/Stat.svg",
     "title": "Statistical Consulting",
-    "desc": "We provide expert support across all stages of research,from designing robust studies and calculating appropriate sample sizes to applying advanced statistical modeling and assisting with publication-ready results.",   
+    "desc": "We provide expert advice and support on the design, analysis, and interpretation of data and research activities. These services span wide range of disciplines and clients—including but not limited to researchers, businesses, healthcare professionals, government agencies, and NGOs.",   
     "number": "01.",
     "btnText": "View Details",
     "btnLink": "/service/service-details"
   },
   {
-    "icon": "icon-risk",
-    "title": "Data Analysis & Visualization",
-    "desc": "We turn data into insights through descriptive and inferential analytics, predictive modeling,and interactive visualizations—including geospatial analysis and dynamic dashboards.",   
+    "icon": "/assets/images/service/Predictive.svg",
+    "title": "Predictive Analytics Africa & Beyond",
+    "desc": "We use AI, machine learning, and advanced statistical techniques",   
     "number": "02.",
     "btnText": "View Details",
     "btnLink": "/service/service-details"
   },
   {
-    "icon": "icon-checked-box",
-    "title": "Research Support & M&E",
-    "desc": "We support research and program evaluation through impact studies, survey design, and trial implementation—along with comprehensive baseline to endline analysis and tailored Monitoring & Evaluation (M&E) frameworks.",   
-    "number": "03.",
-    "btnText": "View Details",
-    "btnLink": "/service/service-details"
-  },
-  {
-    "icon": "icon-inverted-triangle",
-    "title": "Training & Capacity Building",
-    "desc": "We offer tailored short courses and hands-on software training in R, Python, SPSS, and Stata, along with support for strengthening institutional capacity in data and research skills.",   
+    "icon": "/assets/images/service/Custom.svg",
+    "title": "Custom Business Intelligence & Dashboards",
+    "desc": "We design interactive dashboards and data pipelines using Power BI, Tableau, Python, R, and SQL, enabling organizations to visualize insights in real-time.",   
     "number": "04.",
     "btnText": "View Details",
     "btnLink": "/service/service-details"
   },
   {
-    "icon": "icon-refresh-arrow",
-    "title": "Survey Design & Data Collection",
-    "desc": "We support end-to-end data collection through tool development and piloting,enumerator training, and rigorous quality assurance and supervision in the field.",   
+    "icon": "/assets/images/service/Aviation.svg",
+    "title": "Aviation Consultancy",
+    "desc": "Harnessing deep statistical expertise and aviation industry insight, iStat Data Consult PLC offers specialized aviation consultancy services across East Africa and beyond. ",   
+    "number": "03.",
+    "btnText": "View Details",
+    "btnLink": "/service/service-details"
+  },
+
+  {
+    "icon": "/assets/images/service/Bio.svg",
+    "title": "Biostatistics Services for Clinical Trials",
+    "desc": "We provide comprehensive biostatistics support for clinical trials, including the development of detailed Statistical Analysis Plans (SAPs) to define all analyses in advance. Our team manages randomization procedures, ensures proper blinding, and performs interim analyses to maintain study integrity throughout the trial. We also handle final reporting and offer regulatory support to help meet all submission requirements. In addition, we validate study designs to ensure methodological soundness and feasibility, and we provide audit and rescue strategies to help recover and stabilize stalled trials.",   
     "number": "05.",
     "btnText": "View Details",
     "btnLink": "/service/service-details"
   },
   {
-    "icon": "icon-e",
-    "title": "Data Management Systems",
-    "desc": "We design efficient data workflows and build integrated systems—including digital dashboards, real-time monitoring tools, and custom databases—to streamline data management and decision-making.",   
+    "icon": "/assets/images/service/Safety.svg",
+    "title": "Safety Monitoring",
+    "desc": "We provide end-to-end safety management services that include thorough Adverse Event (AE) reporting and continuous maintenance of the safety database to ensure accuracy and regulatory compliance. Our team prepares and manages all required documentation for Serious Adverse Events (SAEs), SUSARs, and USADEs, ensuring timely submissions and clear communication. We also compile periodic safety reports and develop detailed case narratives to support ongoing safety monitoring and regulatory review.",   
     "number": "06.",
     "btnText": "View Details",
     "btnLink": "/service/service-details"

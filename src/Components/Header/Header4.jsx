@@ -50,10 +50,15 @@ export default function Header4({ variant }) {
                 <div className="cs_header_social_links top-header-social-icon">
                   <ul className="social-icon-one">
                   <li><span className="menu-follow_title">Follow Us :</span></li>
-                    <li><a href="#"><i className="bi bi-facebook"></i></a></li>
+                    {/* <li><a href="#"><i className="bi bi-facebook"></i></a></li>
                     <li><a href="#"><i className="bi bi-twitter"></i></a></li>
                     <li><a href="#"><i className="bi bi-linkedin"></i></a></li>
-                    <li><a href="#"><i className="bi bi-instagram"></i></a></li>
+                    <li><a href="#"><i className="bi bi-instagram"></i></a></li> */}
+                    <li><a href="#"></a></li>
+                    <li><a href="https://www.facebook.com/"><img src="/assets/images/social/FB.svg" alt="" /></a></li>  
+                    <li><a href="https://x.com/"><img src="/assets/images/social/X.svg" alt="" /></a></li>  
+                    <li><a href="https://www.linkedin.com/"><img src="/assets/images/social/IG.svg" alt="" /></a></li>  
+                    <li><a href="https://www.instagram.com/"><img src="/assets/images/social/TikTok.svg" alt="" /></a></li>  
                 </ul>
                 </div>
               </div>
@@ -67,7 +72,8 @@ export default function Header4({ variant }) {
 
             <div className="cs_main_header_left">
               <Link className="cs_site_branding_modified" to="/">
-                <img src="/assets/images/logo/logostat2.png" alt="Logo" />
+                {/* <img src="/assets/images/logo/logostat2.png" alt="Logo" /> */}
+                <img src="/assets/images/logo/Logo1.png" alt="Logo" />
               </Link>
               </div>
 
@@ -88,17 +94,17 @@ export default function Header4({ variant }) {
             </div>
             <div className="cs_main_header_right">
             <div className="solutek-btn2 header-2-btn header-right-wrapper header-3-right">
-              <div className="header-right">
-                    <button onClick={() => setSearchToggle(!searchToggle)} className="search-btn">
-                            <span className="icon"><i className="bi bi-search"></i></span>
-                        </button>
-                        <Link to="/contact" className="theme-btn bg-theme">
-                            <span className="link-effect">
-                                <span className="effect-1">Get a Quote</span>
-                                <span className="effect-1">Get a Quote</span>
-                            </span><i className="bi bi-arrow-right"></i>
-                        </Link>
-                    </div>
+              {/* <div className="header-right">
+                  <button onClick={() => setSearchToggle(!searchToggle)} className="search-btn">
+                          <span className="icon"><i className="bi bi-search"></i></span>
+                      </button>
+                      <Link to="/contact" className="theme-btn bg-theme">
+                          <span className="link-effect">
+                              <span className="effect-1">Get a Quote</span>
+                              <span className="effect-1">Get a Quote</span>
+                          </span><i className="bi bi-arrow-right"></i>
+                      </Link>
+              </div> */}
                   </div>
             </div>
           </div>

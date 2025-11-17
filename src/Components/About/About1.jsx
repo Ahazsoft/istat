@@ -9,17 +9,28 @@ const About1 = ({ subtitle, title, rotatetext, subtitle2, content, btnname, expy
                     <div className="col-lg-5">
                         <div className="about-content-wrap">
                             <div className="title-area">
-                                <div className="sub-title"><span><i className="asterisk"></i></span>{subtitle}</div>
+                                <div className="sub-title">
+                                    <span>
+                                        <img 
+                                        src="/assets/images/icons/Icon1.svg" 
+                                        alt="subtitle icon" 
+                                        className="subtitle-image"
+                                        />
+                                    </span>
+                                    {subtitle}
+                                </div>
                                 <h2 className="sec-title">{parse(title)}</h2>
                             </div>
                             <div className="about-img">
-                                <img className="br-10" data-tilt src="/assets/images/about/logovertical.png" alt="about" />
+                                {/* <img className="br-10" data-tilt src="/assets/images/about/logovertical.png" alt="about" /> */}
+                                <img className="br-10" data-tilt src="/assets/images/about/Asset1.png" alt="about" />
+
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="about-middle-wrap ml-60 ltl-ml-0">
-                            <div className="circle-box spin2">
+                            {/* <div className="circle-box spin2">
                                 <div className="logo-box"><img src="/assets/images/shapes/star2.png" alt="" /></div>
                                 <div className="text-inner text-inner-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="250.5" height="250.5" viewBox="0 0 250.5 250.5">
@@ -29,15 +40,16 @@ const About1 = ({ subtitle, title, rotatetext, subtitle2, content, btnname, expy
                                         </text>
                                     </svg>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="about-info">
-                                <h5 className="since">{subtitle2}</h5>
+                                {/* <h5 className="since">{subtitle2}</h5> */}
                                 <p className="text">{parse(content)}</p>
                                 <Link to="/about" className="theme-btn bg-white mt-30">
                                     <span className="link-effect">
                                         <span className="effect-1">{btnname}</span>
                                         <span className="effect-1">{btnname}</span>
-                                    </span><i className="bi bi-arrow-right"></i>
+                                    </span>
+                                    {/* <i className="bi bi-arrow-right"></i> */}
                                 </Link>
                             </div>
                         </div>
@@ -50,13 +62,13 @@ const About1 = ({ subtitle, title, rotatetext, subtitle2, content, btnname, expy
                                 </div>
                                 <div className="text">{parse(exptitle)}</div>
                             </div>
-                            {/* <div className="profile-card overlay-anim1">
+                            <div className="profile-card overlay-anim1">
                                 <img className="image" src={avatar} alt={name} />
                                 <div className="profile-details">
                                     <h5 className="name">{name}</h5>
                                     <p className="title">{designation}</p>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

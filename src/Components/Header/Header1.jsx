@@ -40,9 +40,11 @@ export default function Header1({ variant }) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
               <Link to="/" className="cs_site_branding">
-                <img src="/assets/images/logo/logostat.png" 
+                {/* <img src="/assets/images/logo/logostat.png"  */}
+                <img src="/assets/images/logo/Logo1.png" 
                 alt="Logo" 
-                style={{ maxWidth: '5% !important' }} />
+                // style={{ maxWidth: '5% !important' }} />
+                />
               </Link>
               </div>
               <div className="cs_main_header_center">

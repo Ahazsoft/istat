@@ -20,15 +20,15 @@ const HeroBanner1 = ({videotext,title,subtitle,btnname,btnname2,btnurl,btn2url,m
     return (
         <div>
         <section className="hero-section overflow-hidden">
-            <div className="p-top-left wow slideInLeft" data-wow-delay="500ms" data-wow-duration="1000ms"><img src="/assets/images/banner/shape01.png" alt="shape" /></div>
-            <div className="shape-mockup spin2 d-none d-xxl-block hero-shape-mockup1" data-top="23%" data-left="48%"><img src="/assets/images/shapes/star.png" alt="shape" /></div>
+            <div className="p-top-left wow slideInLeft" data-wow-delay="500ms" data-wow-duration="1000ms"><img src="/assets/images/banner/shapeistat2.png" alt="shape" /></div>
+            {/* <div className="shape-mockup spin2 d-none d-xxl-block hero-shape-mockup1" data-top="23%" data-left="48%"><img src="/assets/images/shapes/star.png" alt="shape" /></div> */}
             <div className="hero-scroll smooth">
-                <a href="#about-section" id="scrollLink">
-                    {/* <div className="scroll-me">Scroll Down</div> */}
+                {/* <a href="#about-section" id="scrollLink">
+                    <div className="scroll-me">Scroll Down</div>
                     <div className="hero-social_arrow">
                         <img src="/assets/images/icons/arrow-down-long.png" alt="" />
                     </div>
-                </a>
+                </a> */}
             </div>
             <div className="container">
                 <div className="row">
@@ -43,27 +43,28 @@ const HeroBanner1 = ({videotext,title,subtitle,btnname,btnname2,btnurl,btn2url,m
                             <h1 className="title">{parse(title)}</h1>
                             <p className="sub-title">{parse(subtitle)}</p>
 
-                            <Link to={btnurl} className="theme-btn">
+                            {/* <Link to={btnurl} className="theme-btn">
                                 <span className="link-effect">
                                     <span className="effect-1">{btnname}</span>
                                     <span className="effect-1">{btnname}</span>
                                 </span><i className="bi bi-arrow-right"></i>
-                            </Link>
+                            </Link> */}
 
                             <Link to={btn2url} className="theme-btn">
                                 <span className="link-effect">
                                     <span className="effect-1">{btnname2}</span>
                                     <span className="effect-1">{btnname2}</span>
-                                </span><i className="bi bi-arrow-right"></i>
+                                {/* </span><i className="bi bi-arrow-right"></i> */}
+                                </span>
                             </Link>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* <div className="hero-img p-top-right">
+            <div className="hero-img p-top-right">
                 <img src={mainimg} alt="hero" />
-            </div> */}
-            {/* <div className="hero-info-wrapper">
+            </div>
+            <div className="hero-info-wrapper">
                 <div className="client-count-box">
                     <div className="count-box">
                         <div className="inner-count">
@@ -75,22 +76,22 @@ const HeroBanner1 = ({videotext,title,subtitle,btnname,btnname2,btnurl,btn2url,m
                 </div>
                 <div className="review-block">
                     <div className="hero-social-proof">
-                        <div className="social">
+                        {/* <div className="social">
                             <img src="/assets/images/social/social-img01.jpg" alt="Client 01"/>
                             <img src="/assets/images/social/social-img02.jpg" alt="Client 02" />
                             <img src="/assets/images/social/social-img03.jpg" alt="Client 03" />
-                        </div>
+                        </div> */}
                         <div className="happy-customers">
                             <div className="text">{customers}</div>
                             <div className="rating-viewers">
-                                <i className="bi bi-star-fill"></i>
+                                {/* <i className="bi bi-star-fill"></i>
                                 <span className="rating"> {rating}</span>
-                                <span className="count">{review}</span>
+                                <span className="count">{review}</span> */}
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
          
         </section>
         <VideoModal

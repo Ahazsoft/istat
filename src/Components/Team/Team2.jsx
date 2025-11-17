@@ -8,7 +8,7 @@ const Team2 = () => {
         dots: false,
         infinite: true,
         speed: 600,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true, 
