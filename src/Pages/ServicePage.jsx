@@ -12,7 +12,7 @@ const ServicePage = () => {
     return (
         <div>
              <BreadCumb
-                bg="/assets/images/bg-img/breadcrumb2.png"
+                bg="/assets/images/bg-img/breadcrumb_services.png"
                 Title="Services"
                 Content="">
             </BreadCumb>   

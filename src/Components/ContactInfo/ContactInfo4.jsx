@@ -51,13 +51,13 @@ const ContactInfo4 = () => {
                                 <span></span>
                                 <span></span>
                             </div>
-                            <div className="image-box">
+                            {/* <div className="image-box">
                                 <div className="image-item"><img src="/assets/images/cta/img01.jpg" alt="Person 1" /></div>
                                 <div className="image-item"><div className="icon"><i className="icon-handshake"></i></div></div>
                                 <div className="image-item"><img src="/assets/images/cta/img02.jpg" alt="Person 3" /></div>
                                 <div className="image-item"><img src="/assets/images/cta/img03.jpg" alt="Person 4" /></div>
                                 <div className="image-item"><img src="/assets/images/cta/img04.jpg" alt="Person 5" /></div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

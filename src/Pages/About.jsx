@@ -15,7 +15,7 @@ const About = () => {
     return (
         <div>
             <BreadCumb
-                bg="/assets/images/bg-img/breadcrumb1.png"
+                bg="/assets/images/bg-img/breadcrumb_aboutus.png"
                 Title="About Us"
                 Content=""
             ></BreadCumb>

@@ -30,7 +30,7 @@ const Home = () => {
                 btnname2="Explore Our Services"
                 btnurl="/contact"
                 btn2url="/services"
-                mainimg="/assets/images/banner/heromain.jpg"
+                mainimg="/assets/images/banner/heromain2.png"
                 // Clientnumber="5k"
                 Clientnumber="15+"
                 // Client="We Consultant Client World-wide"

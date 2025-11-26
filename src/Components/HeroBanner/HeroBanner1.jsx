@@ -20,7 +20,9 @@ const HeroBanner1 = ({videotext,title,subtitle,btnname,btnname2,btnurl,btn2url,m
     return (
         <div>
         <section className="hero-section overflow-hidden">
-            <div className="p-top-left wow slideInLeft" data-wow-delay="500ms" data-wow-duration="1000ms"><img src="/assets/images/banner/shapeistat2.png" alt="shape" /></div>
+            {/* <div className="p-top-left wow slideInLeft" data-wow-delay="500ms" data-wow-duration="1000ms"><img src="/assets/images/banner/shapeistat2.png" alt="shape" /></div> */}
+            <div className="p-top-left wow slideInLeft" data-wow-delay="500ms" data-wow-duration="1000ms"></div>
+
             {/* <div className="shape-mockup spin2 d-none d-xxl-block hero-shape-mockup1" data-top="23%" data-left="48%"><img src="/assets/images/shapes/star.png" alt="shape" /></div> */}
             <div className="hero-scroll smooth">
                 {/* <a href="#about-section" id="scrollLink">
@@ -61,9 +63,9 @@ const HeroBanner1 = ({videotext,title,subtitle,btnname,btnname2,btnurl,btn2url,m
                     </div>
                 </div>
             </div>
-            <div className="hero-img p-top-right">
+            {/* <div className="hero-img p-top-right">
                 <img src={mainimg} alt="hero" />
-            </div>
+            </div> */}
             <div className="hero-info-wrapper">
                 <div className="client-count-box">
                     <div className="count-box">
