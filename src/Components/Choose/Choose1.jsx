@@ -8,7 +8,8 @@ const Choose1 = () => {
                 <div className="row">
                     <div className="col-lg-6 position-relative">
                         <div className="choose-thumb">
-                            <img src="/assets/images/choose/choose01.jpg" alt="Choose Thumb" />
+                            {/* <img src="/assets/images/choose/choose01.jpg" alt="Choose Thumb" /> */}
+                            <img src="/assets/images/choose/choose03.png" alt="Choose Thumb" />
                         </div>
                         <div className="since-box">
                             <div className="inner-box">

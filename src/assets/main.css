@@ -12798,7 +12798,8 @@ a.text-theme:hover,
 }
 
 .choose-thumb img{
-    max-width:inherit;
+    /* max-width:inherit; */
+    max-width: 150%;
 }
 
 .since-box {
